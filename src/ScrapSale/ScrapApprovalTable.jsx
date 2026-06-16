@@ -301,6 +301,11 @@ const ScrapApprovalTable = ({ items = [], selectedRows = [], setSelectedRows }) 
     }
   };
 
+  // This is the new method you WANT to push
+  const handleConfirm = () => {
+    console.log("Action Confirmed");
+  };
+  
   // Toggle all rows
   const toggleAll = () => {
     if (selectedRows.length === items.length) {
