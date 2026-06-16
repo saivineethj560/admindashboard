@@ -1,0 +1,76 @@
+body {
+      font-family: "Montserrat", sans-serif;
+      background-color: #f1f1f1;
+   }
+.MuiBadge-badge {
+    background: #ff5252 !important;
+}
+.ReactCollapse--collapse 
+{
+    transition: height 300ms;
+}
+.btn-blue{
+    background:#3872fa !important;
+    color:#fff !important;
+    padding: 8px 20px !important;
+}
+.btn-blue:hover{
+    background:#3067e5 !important;
+}
+.info h3:hover {
+    color: var(--primary-color); /* Or any desired hover color */
+}
+.neon-ring {
+    box-shadow: 0 0 8px rgb(240, 171, 142), 0 0 16px rgb(240, 171, 142), 0 0 24px rgb(240, 171, 142), 0 0 40px rgb(240, 171, 142);
+  }
+ /* Add this CSS to your global styles */
+@keyframes neonPulse {
+    0%, 100% {
+      box-shadow: 0 0 10px rgb(240, 171, 142), 0 0 20px rgb(240, 171, 142), 0 0 30px rgb(240, 171, 142);
+    }
+    50% {
+      box-shadow: 0 0 20px rgb(240, 171, 142), 0 0 40px rgb(240, 171, 142), 0 0 60px rgb(240, 171, 142);
+    }
+  }
+  
+  .neon-ring {
+    animation: neonPulse 1.3s infinite ease-in-out;
+  }
+
+  /* Calendar tweaks to make it compact vertically */
+.calendar-custom {
+  width: 100% !important;
+  border: none;
+}
+
+.calendar-custom .react-calendar__month-view__weekdays {
+  font-size: 0.75rem;
+}
+
+.calendar-custom .react-calendar__tile {
+  padding: 6px 0;
+  font-size: 0.75rem;
+}
+
+.text-navy {
+  color: #001f3f; /* Navy Blue */
+}
+
+.invalid-feedback {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+.was-validated input:invalid {
+  border: 2px solid red;
+}
+
+.was-validated input:valid {
+  border: 2px solid green;
+}
+
+/* In index.css or App.css */
+.MuiTooltip-popper {
+  z-index: 9999 !important;
+}
+  
